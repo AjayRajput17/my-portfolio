@@ -1,64 +1,72 @@
-
-body{
-  font-family: 'Times New Roman', Times, serif ;
+* {
   margin: 0;
-  padding: auto;
-  line-height: 1.15;
-  background-color: blanchedalmond;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
-.container{
-  width: 80%;
-  margin: auto;
+body {
+  background-color: #f0f0f0;
+  color: #333;
+  line-height: 1.6;
 }
 
-/*Css for Header */
-header{
-  background:grey;
-  padding: 20px 0;
+header {
+  background-color: #4CAF50;
+  color: white;
   text-align: center;
+  padding: 20px 0;
 }
 
-header h1{
-  color: thistle;
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
 }
 
-nav ul li{
-  display: inline;
-  padding-right: 30px;
+h3 {
+  font-size: 1.2rem;
+  margin-top: 0;
 }
 
-/*Css for About*/
-.about-section{
-  background-color: #f1e2e2;
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.about-section h1{
-  text-align:center;
+.profile-pic {
+  float: left;
+  width: 150px;
+  margin-right: 20px;
+  border-radius: 50%;
 }
 
-.about-section table tr td{
+.about p {
+  text-align: justify;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
   padding: 10px;
-}
-.about-section img{
-  border-radius: 25px;
+  border-bottom: 1px solid #ddd;
 }
 
-.about-section p{
-  font-size: x-large;
-}
-
-.about-section p:hover{
-  background-color: hotpink;
-}
-
-
-/* Prject CSS */
-.project-section{
-  background-color:#f1e2e2 ;
-}
-
-#sub-project-section p {
-  font-size: larger;
-  color: red;
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #4CAF50;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
