@@ -4,14 +4,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio - Ajay Ingle</title>
+  <title>Ajay Ingle | Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <!-- Header Section -->
   <header>
     <div class="container">
-      <h1>Ajay Ingle's Portfolio</h1>
+      <div class="branding">
+        <h1>Ajay Ingle</h1>
+        <p>Computer Science Engineering Student</p>
+      </div>
       <nav>
         <ul>
           <li><a href="#about">About</a></li>
@@ -24,50 +28,44 @@
   </header>
 
   <!-- About Section -->
-  <section id="about" class="about-section">
-    <div class="container">
-      <h1>About Me</h1>
-      <table>
-        <tr>
-          <td>
-            <img src="ajay.png" alt="Ajay Ingle" height="200px" width="200px">
-          </td>
-          <td>
-            <p>Hello, I am Ajay Ingle, a Computer Science Engineering student at MIT Academy of Engineering, Pune. I am
-              passionate about web development, software development, machine learning, and data science. With strong
-              proficiency in C, C++, Java, Java-Swing, JSP, JavaScript, software testing, project management, and
-              database management systems, I aim to contribute effectively to the tech world.</p>
-          </td>
-        </tr>
-      </table>
+  <section id="about" class="section">
+    <div class="container about-container">
+      <div class="about-image">
+        <img src="ajay.png" alt="Ajay Ingle">
+      </div>
+      <div class="about-content">
+        <h2>About Me</h2>
+        <p>Hello! I'm Ajay Ingle, a Computer Science Engineering student at MIT Academy of Engineering, Pune. My passion
+          lies in web development, software development, machine learning, and data science. I have strong skills in C,
+          C++, Java, Java-Swing, JSP, JavaScript, software testing, project management, and database management. I am
+          dedicated to continuously learning and exploring new technologies to make meaningful contributions to the tech
+          world.</p>
+      </div>
     </div>
   </section>
 
   <!-- Projects Section -->
-  <section id="projects" class="project-section">
+  <section id="projects" class="section">
     <div class="container">
-      <h1>Projects</h1>
-
-      <section class="sub-project-section">
-        <h2>Breast Cancer Diagnosis</h2>
-        <p>A machine learning project using Python to develop an efficient diagnostic tool for breast cancer detection.
-        </p>
-      </section>
-
-      <section class="sub-project-section">
-        <h2>Desktop Application for Yash Traders</h2>
-        <p>Developed a desktop application using VB.NET and MySQL to integrate various retail business operations, such
-          as inventory management, sales tracking, purchase order management, CRM, and reporting.</p>
-      </section>
-
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Breast Cancer Diagnosis</h3>
+        <p>Developed a machine learning model using Python to create an efficient diagnostic tool for detecting breast
+          cancer.</p>
+      </div>
+      <div class="project">
+        <h3>Desktop Application for Yash Traders</h3>
+        <p>Designed and developed a desktop application using VB.NET and MySQL to manage retail business operations,
+          including inventory management, sales tracking, and CRM.</p>
+      </div>
     </div>
   </section>
 
   <!-- Qualification Section -->
-  <section id="qualification" class="qualification">
+  <section id="qualification" class="section">
     <div class="container">
-      <h1>Qualification</h1>
-      <table border="1px">
+      <h2>Qualification</h2>
+      <table>
         <thead>
           <tr>
             <th>Qualification</th>
@@ -78,7 +76,7 @@
         </thead>
         <tbody>
           <tr>
-            <td>Bachelor of Technology (B.Tech) in Computer Science Engineering</td>
+            <td>B.Tech in Computer Science Engineering</td>
             <td>MIT Academy of Engineering, Pune</td>
             <td>Ongoing</td>
             <td>—</td>
@@ -95,9 +93,9 @@
   </section>
 
   <!-- Contact Section -->
-  <section id="contact" class="contact-section">
+  <section id="contact" class="section">
     <div class="container">
-      <h1>Contact</h1>
+      <h2>Contact</h2>
       <p>Email: <a href="mailto:ajayingle@example.com">ajayingle@example.com</a></p>
       <p>Phone: +91 888 888 9999</p>
     </div>
@@ -106,7 +104,7 @@
   <!-- Footer Section -->
   <footer>
     <div class="container">
-      <h5>All Rights Reserved by Ajay Ingle</h5>
+      <p>&copy; 2024 Ajay Ingle. All Rights Reserved.</p>
     </div>
   </footer>
 </body>

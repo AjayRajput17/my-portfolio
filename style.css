@@ -11,28 +11,56 @@ body {
   line-height: 1.6;
 }
 
+/* Header Styling */
 header {
   background-color: #0073e6;
   color: white;
-  text-align: center;
-  padding: 20px 0;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
-header nav ul {
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.branding h1 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.branding p {
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+nav ul {
   list-style: none;
-  padding: 0;
-  margin: 10px 0 0;
+  display: flex;
+  gap: 20px;
 }
 
-header nav ul li {
+nav ul li {
   display: inline;
-  margin-right: 15px;
 }
 
-header nav ul li a {
+nav ul li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffcc00;
+}
+
+/* Section Styling */
+.section {
+  padding: 40px 0;
 }
 
 .container {
@@ -41,32 +69,5 @@ header nav ul li a {
   margin: 0 auto;
 }
 
-.about-section, .project-section, .qualification, .contact-section {
-  background-color: white;
-  padding: 30px;
-  margin: 20px 0;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
-}
-
-table th, table td {
-  border: 1px solid #ddd;
-  padding: 10px;
-  text-align: left;
-}
-
-footer {
-  background-color: #0073e6;
-  color: white;
-  text-align: center;
-  padding: 10px 0;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-}
+.about-container {
+  display: flex
