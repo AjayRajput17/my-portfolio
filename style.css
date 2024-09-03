@@ -21,6 +21,12 @@ header {
   z-index: 100;
 }
 
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .header .container {
   display: flex;
   justify-content: space-between;
@@ -63,11 +69,25 @@ nav ul li a:hover {
   padding: 40px 0;
 }
 
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
-.about-container {
-  display: flex
+/* Additional styles for project table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #0073e6;
+  color: white;
+}
