@@ -91,3 +91,9 @@ th {
   background-color: #0073e6;
   color: white;
 }
+
+div img{
+  width: 500px;
+  border-radius: 20px;
+  padding-left: 10px;
+}
